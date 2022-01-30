@@ -9,6 +9,7 @@
   margin: 0;
   padding: 0;
   color: #202029;
+  scroll-behavior: smooth;
 }
 
 body {

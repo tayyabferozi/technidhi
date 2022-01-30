@@ -1,3 +1,8 @@
+$(".nav a").click(function () {
+  $(".nav a").removeClass("active");
+  $(this).addClass("active");
+});
+
 AOS.init({ duration: 700, offset: 200 });
 
 var swiper = new Swiper(".mySwiper", {
@@ -24,3 +29,7 @@ $("#faqs .item").click(function () {
 
 const firstEl = document.querySelector("#faqs .item");
 $(firstEl).click();
+
+$(".sm-nav.sm-hide").click(function () {
+  $("label.sm-hide").click();
+});
